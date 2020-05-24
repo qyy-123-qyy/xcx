@@ -1,0 +1,19 @@
+<!-- 活动资讯 -->
+<view class="contanier">
+<view class="item_up">
+<view class="pic"><image src="../../images/people1.png"></image></view>
+<view class="info"><text class="info_top">帮助孤寡老人</text><text class="info_bot">救济扶贫</text></view>
+</view>
+<view class="item_mid">简介：Google 翻译是谷歌公司提供一项免费的翻译服务，可提供103 </view>
+<view class="item_time">45分钟前</view>
+<view class="item_down"><image src="../../images/heart.png"></image><text>点击加入</text></view>
+</view>
+<view class="contanier">
+<view class="item_up">
+<view class="pic"><image src="../../images/people1.png"></image></view>
+<view class="info"><text class="info_top">帮助孤寡老人</text><text class="info_bot">救济扶贫</text></view>
+</view>
+<view class="item_mid">简介：Google 翻译是谷歌公司提供一项免费的翻译服务，可提供103 </view>
+<view class="item_time">45分钟前</view>
+<view class="item_down"><image src="../../images/heart.png"></image><text>点击加入</text></view>
+</view>

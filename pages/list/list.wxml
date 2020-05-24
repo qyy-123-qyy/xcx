@@ -1,0 +1,34 @@
+<!-- 名单填写 -->
+<view class="active">
+<view class="time">
+<text>活动时间</text>
+<input/>
+</view>
+<view class="time">
+<text>活动时长</text>
+<input />
+</view>
+<view class="time">
+<text decode="true">性别&ensp;&ensp;&ensp;</text>
+<radio-group bindchange="radiochange">
+  <radio value='男'>男</radio>
+<radio value='女'>女</radio>
+</radio-group>
+</view>
+<view class="time">
+<text decode="true">姓名&ensp;&ensp;&ensp;&ensp;</text>
+<input />
+</view>
+</view>
+<!-- 活动图片-->
+<view class="active">
+<text class="title titles">活动图片</text>
+<view class="times">
+<view class="pic" bindtap="chooseImage">
+<image src="../../images/pic.png"></image>
+<text>活动图片</text>
+</view>
+</view>
+</view>
+<!-- 确认提交 -->
+<view class="content">确认提交</view>

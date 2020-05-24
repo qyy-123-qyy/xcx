@@ -1,0 +1,70 @@
+/* 活动资讯 */
+page{
+  background-color: rgb(249, 249, 249);
+}
+.contanier{
+  width: 80%;
+  height: 400rpx;
+  background-color:#fff;
+  margin:60rpx auto;
+  padding:20rpx 40rpx;
+  box-shadow: 0 0 12rpx rgba(0, 0, 0, 0.2);
+  border-radius: 20rpx;
+}
+.item_up{
+  width:100%;
+  display: flex;
+}
+.pic{
+  width:120rpx;
+  height:120rpx;
+  border-radius: 50%;
+  border: 1px solid rgb(235, 230, 230);
+}
+.pic image{
+  width:120rpx;
+  height:120rpx;
+  border-radius: 50%;
+}
+.info{
+  padding: 20rpx;
+}
+.info text{
+  display: block;
+  padding: 0 0 0 20rpx;
+}
+.info_top{
+  font-size:40rpx;
+  color: #333;
+}
+.info_bot{
+  font-size:28rpx;
+  color: #999;
+}
+.item_mid{
+  font-size: 32rpx;
+  color: rgba(91, 89, 89, 0.981);
+  padding: 20rpx 0;
+}
+.item_time{
+  font-size:28rpx;
+  color: #999;
+}
+.item_down{
+  width:180rpx;
+  background-color: rgb(240, 99, 99);
+  border-radius:40rpx;
+  color: rgb(242, 242, 242);
+  font-size:28rpx;
+  display: flex;
+  padding: 10rpx 40rpx;
+  margin:30rpx auto;
+}
+.item_down image{
+  width:40rpx;
+  height:40rpx;
+  margin: 10rpx;
+}
+.item_down text{
+  line-height:60rpx;
+}

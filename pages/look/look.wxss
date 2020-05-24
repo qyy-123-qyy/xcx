@@ -1,0 +1,89 @@
+/* 社团团长查看 */
+.logo{
+  width:160rpx;
+  height:160rpx;
+  background-color: pink;
+  border-radius: 50%;
+  overflow: hidden;
+  margin:40rpx auto;
+}
+.logo image{
+  width: 100%;
+  height: 100%;
+}
+.logo image img{
+  width: 100%;
+  height: 100%;
+}
+/* 发布 */
+.fabu{
+  padding: 0 40rpx;
+}
+.fabu text{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  line-height: 2rem;
+  text-align: center;
+  color: #666;
+}
+.fabu .active_class{
+  border-bottom:2px transparent solid;
+  border-image:linear-gradient(to right,#EF898D,#F9D4D5) 1 10;
+  color: #B01B15;
+}
+/* 详情 */
+.detail_content{
+  width: 80%;
+  height:220rpx;
+  background-color: yellowgreen;
+  margin:40rpx auto;
+  display: flex;
+  padding: 40rpx;
+  background-color: #fff;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius:20rpx;
+}
+.item_img{
+  width:30%;
+  /* height:100%; */
+}
+.item_img image{
+  width:100%;
+  height: 100%;
+} 
+.item_img image img{
+  width:100%;
+  height:100%;
+} 
+text{
+  display: block;
+}
+.item_right{
+  width: 40%;
+  height:100%;
+  /* background-color: pink; */
+  padding: 0rpx 0 0 20rpx;
+}
+.people{
+  font-size: 36rpx;
+  color: #333;
+  font-weight:550;
+  line-height:54rpx;
+
+}
+.time{
+  font-size: 28rpx;
+  color: #999;
+  line-height:50rpx;
+}
+.item_more{
+  font-size:24rpx;
+  height: 30rpx;
+  padding: 10rpx 20rpx;
+  border:1px solid #B01B15;
+  line-height: 30rpx;
+  border-radius:26rpx;
+  margin: 80rpx 0 0 24rpx;
+  color: #B01B15;
+}

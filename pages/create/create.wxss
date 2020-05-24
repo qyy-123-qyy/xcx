@@ -1,0 +1,129 @@
+page{
+  background-color: rgb(242, 236, 236);
+}
+.active{
+   background-color:#fff;
+   width:80%;
+   padding:20rpx 40rpx;
+   margin:40rpx auto 0;
+   border-radius: 10rpx;
+}
+.title{
+  padding:12rpx 20rpx;
+  margin:0 auto;
+  width: 234rpx;
+  display: block;
+  border-bottom: 2px solid rgb(191, 62, 62);
+  text-align: center;
+  font-size: 34rpx;
+}
+.time{
+  display: flex;
+  margin-top: 40rpx;
+}
+.time text{
+  line-height:70rpx;
+  padding-right:30rpx;
+  font-size: 32rpx;
+}
+.time input{
+  width:420rpx;
+  height:70rpx;
+  background-color: rgb(237, 235, 235);
+  border-radius:8rpx;
+  padding-left:20rpx;
+}
+radio-group{
+  line-height:60rpx ;
+}
+radio{
+  transform:scale(0.8);
+}
+.times{
+  margin-top:20rpx;
+}
+.titles{
+  border: none;
+}
+textarea{
+  width: 100%;
+  height: 160rpx;
+}
+/* 活动图片 */
+.pic{
+  padding:20rpx;
+  width: 40%;
+  height: 120epx;
+  background-color: rgb(245, 243, 243);
+  text-align: center;
+}
+.pic image{
+  width: 80rpx;
+  height: 80rpx;
+  z-index: -1;
+}
+.pic text{
+  font-size: 32rpx;
+  display: block;
+  color: #cdcdcd;
+}
+/* 活动视频 */
+.actives{
+  padding: 0;
+  width: 90%;
+}
+.pics{
+  height: 340rpx;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+.actives image{
+  width:80rpx;
+  height:80rpx;
+  margin-top: 60rpx;
+  z-index: -1;
+}
+.actives text{
+  font-size: 32rpx;
+  color: #cdcdcd;
+  display: block;
+  width:140px;
+  margin: auto;
+}
+/* 发布 */
+.sp{
+  display: flex;
+  border-bottom: 2px solid #cdcdcd ;
+  border-top: 2px solid #cdcdcd ;
+  
+}
+.sp  text{
+  font-size: 32rpx;
+  border-radius:0;
+}
+.sp  text:nth-child(2){
+  color: #dfdfdf;
+  margin-left: 240rpx;
+}
+.sp image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top:8rpx;
+}
+/* 名单 */
+.roster{
+  margin: 0 auto;
+  background-color: #fff;
+}
+/* 确认发布 */
+.btn{
+  width: 80%;
+  margin:40rpx auto 20rpx;
+  padding: 20rpx 0;
+  border-radius: 50rpx;
+  background: linear-gradient(to right,rgb(242, 173, 176),rgb(237, 70, 76));
+  color: #fff;
+  text-align: center;
+  box-shadow: 6rpx 0 12rpx rgb(245, 124, 128);
+}

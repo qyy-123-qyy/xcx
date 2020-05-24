@@ -1,0 +1,64 @@
+<!-- 志愿者名单 -->
+<view class="contanier">
+	<view class="item_up">
+		<view class="pic" bindtap="play">
+			<image src="../../images/jia.png"></image>
+		</view>
+		<text class="info_top">志愿者名单1</text>
+	</view>
+	<!-- 名单 -->
+	<view class="item_box" wx:for="{{datas}}"><text class="name">{{item.name}}</text><text class="sex">{{item.sex}}</text></view>
+	<!-- 弹框 -->
+	<view class="toast-box" hidden="{{hid}}">
+		<view class="toast-up">添加名单</view>
+		<form bindreset="cleanInput">
+			<view class="toast-name">
+				<input auto-focus placeholder="姓名" bindblur="name" value="{{name}}" /></view>
+			<view class="toast-sex">
+				<radio-group bindchange="radiochange">
+					<text>性别：</text>
+					<radio value='男'>男</radio>
+					<radio value='女'>女</radio>
+				</radio-group>
+			</view>
+			<view class='toast-button'>
+				<view class='button1'><button style="width:90rpx" formType="reset" bindtap="confirm">确认</button> </view>
+				<view class='button2' bindtap="cancel"><button style="width:90rpx"> 取消</button> </view>
+			</view>
+		</form>
+	</view>
+</view>
+
+<!-- 志愿者名单 -->
+<view class="contanier">
+	<view class="item_up">
+		<view class="pic" bindtap="play">
+			<image src="../../images/jia.png"></image>
+		</view>
+		<text class="info_top">志愿者名单1</text>
+	</view>
+	<!-- 名单 -->
+	<view class="item_box" wx:for="{{datas}}"><text class="name">{{item.name}}</text><text class="sex">{{item.sex}}</text></view>
+	<!-- 弹框 -->
+	<view class="toast-box" hidden="{{hid}}">
+		<view class="toast-up">添加名单</view>
+		<form bindreset="cleanInput">
+			<view class="toast-name">
+				<input auto-focus placeholder="姓名" bindblur="name" value="{{name}}" /></view>
+			<view class="toast-sex">
+				<radio-group bindchange="radiochange">
+					<text>性别：</text>
+					<radio value='男'>男</radio>
+					<radio value='女'>女</radio>
+				</radio-group>
+			</view>
+			<view class='toast-button'>
+				<view class='button1'><button style="width:90rpx" formType="reset" bindtap="confirm">确认</button> </view>
+				<view class='button2' bindtap="cancel"><button style="width:90rpx"> 取消</button> </view>
+			</view>
+		</form>
+	</view>
+</view>
+
+<!-- 确认添加 -->
+<view class="content">确认添加</view>

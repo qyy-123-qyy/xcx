@@ -1,0 +1,32 @@
+ <!-- 活动  -->
+ <!-- 头像 -->
+<view class="logo"><image src="../../images/1.jpg"></image></view>
+<view class="contanier">
+<!-- 详情 -->
+<view class="fabu">
+<text class="{{step==0?'active_class':''}}"  bindtap="changeStep" data-current="0">正在参与</text>
+<text class="{{step==1?'active_class':''}}"  bindtap="changeStep" data-current="1">过往活动</text>
+</view>
+</view>
+<!-- 正在参与 -->
+<view class="detail_content"  wx:if="{{step==0}}">
+<view class="item_img"><image src="../../images/1.jpg"></image></view> 
+<view class="item_right">
+<text class="people">为灾区募捐</text>
+<text class="time">地点：某某广场</text>
+<text class="time">时间：20200520</text>
+<text class="time">组织者：志愿者协会</text>
+</view>
+<view class="item_more" data-name="{{item.name}}" bindtap="jump">查看更多</view>
+</view>
+<!-- 过往活动 -->
+<view class="detail_content"  wx:if="{{step==1}}">
+<view class="item_img"><image src="../../images/1.jpg"></image></view> 
+<view class="item_right">
+<text class="people">为灾12募捐</text>
+<text class="time">地点：某某广场</text>
+<text class="time">时间：20200520</text>
+<text class="time">组织者：志愿者协会</text>
+</view>
+<view class="item_more" data-name="{{item.name}}" bindtap="jump">查看更多</view>
+</view>

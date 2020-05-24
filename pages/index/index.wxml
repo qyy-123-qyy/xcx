@@ -1,0 +1,97 @@
+<!--index.wxml-->
+<!-- 轮播图 -->
+ <view class="swiper">
+<swiper indicator-dots="true" autoplay="{{true}}" interval="1000" duration="1000" circular="true">
+        <block wx:for="{{imgs}}" wx:key="index">
+          <swiper-item>
+            <view class="swiper-item"><image src="{{item.img}}"></image></view>
+          </swiper-item>
+        </block>
+</swiper>
+</view>
+<!-- 轮播图 -->
+<!-- 活动 -->
+<view class="contanier">
+<!-- 参与活动 -->
+<view class="content" bindtap="go">
+<view class="active"><image src="../../images/huodong.png"></image></view>
+<view class="join">参与活动</view>
+</view>
+<!-- 活动招募 -->
+<view class="content">
+<view class="active active_two"><image src="../../images/zhiyun.png"></image></view>
+<view class="join">活动招募</view>
+</view>
+<!-- 法律法规 -->
+<view class="content" bindtap="legal">
+<view class="active active_three"><image src="../../images/low.png"></image></view>
+<view class="join">法律法规</view>
+</view>
+</view>
+<!-- 活动 -->
+<!-- 详情 -->
+<view class="detail">
+<!-- 参与活动 -->
+<view class="join_in">
+<view class="icons"><image src="../../images/join.png"></image></view>
+<view class="hd">参与活动</view>
+<view class="more">查看更多</view>
+</view>
+</view>
+<!-- 详情 -->
+<view class="detail_content" wx:for="{{detailList}}" wx:key="index">
+<view class="item_img"><image src="{{item.icon}}"></image></view>
+<view class="item_right">
+<text class="people">{{item.name}}</text>
+<text class="time">地点：{{item.cateID}}</text>
+<text class="time">时间：{{item.cateID}}</text>
+<text class="time">组织者：志愿者协会</text>
+</view>
+<view class="item_more" data-name="{{item.name}}" bindtap="jump">查看更多</view>
+</view>
+
+<view class="detail">
+<!-- 活动招募 -->
+<view class="join_in">
+<view class="icons"><image src="../../images/hdzm.png"></image></view>
+<view class="hd">活动招募</view>
+<view class="more">查看更多</view>
+</view>
+</view>
+<!-- 详情 -->
+<view class="detail_content" wx:for="{{detailList}}" >
+<view class="item_img"><image src="{{item.icon}}"></image></view>
+<view class="item_right">
+<text class="people">{{item.name}}</text>
+<text class="time">地点：{{item.cateID}}</text>
+<text class="time">时间：{{item.cateID}}</text>
+<text class="time">组织者：志愿者协会</text>
+</view>
+<view class="item_more" data-name="{{item.name}}" bindtap="jump">查看更多</view>
+</view>
+
+
+<view class="detail">
+<!-- 政策法规 -->
+<view class="join_in">
+<view class="icons"><image src="../../images/zcfg.png"></image></view>
+<view class="hd">政策法规</view>
+<view class="more">查看更多</view>
+</view>
+</view>
+<!-- 详情 -->
+<view class="detail_content" wx:for="{{detailList}}" >
+<view class="item_img"><image src="{{item.icon}}"></image></view>
+<view class="item_right">
+<text class="people">{{item.name}}</text>
+<text class="time">地点：{{item.cateID}}</text>
+<text class="time">时间：{{item.cateID}}</text>
+<text class="time">组织者：志愿者协会</text>
+</view>
+<view class="item_more" data-name="{{item.name}}" bindtap="jump">查看更多</view>
+</view>
+
+
+
+
+

@@ -1,0 +1,68 @@
+<!-- 创建活动 -->
+<!-- 活动名称 -->
+<view class="active">
+<text class="title">输入活动名称</text>
+<view class="time">
+<text>活动时间</text>
+<input/>
+</view>
+<view class="time">
+<text>活动时长</text>
+<input />
+</view>
+<view class="time">
+<text decode="true">性别&ensp;&ensp;&ensp;</text>
+<radio-group bindchange="radiochange">
+  <radio value='男'>男</radio>
+<radio value='女'>女</radio>
+<radio value='不限' >不限</radio>
+</radio-group>
+</view>
+<view class="time">
+<text>需求人数</text>
+<input  type="number"/>
+</view>
+<view class="time">
+<text decode="true">地址&ensp;&ensp;&ensp;&ensp;</text>
+<input />
+</view>
+</view>
+<!-- 活动介绍 -->
+<view class="active">
+<text class="title titles">活动介绍</text>
+<view class="times">
+<textarea placeholder="请输入活动内容" placeholder-style="font-size:32rpx" />
+</view>
+</view>
+<!-- 活动图片-->
+<view class="active">
+<text class="title titles">活动图片</text>
+<view class="times">
+<view class="pic" bindtap="chooseImage">
+<image src="../../images/pic.png"></image>
+<text>活动图片{{images}}</text>
+</view>
+</view>
+</view>
+<!-- 活动视频-->
+<view class="active actives">
+<view class="pics" bindtap="chooseVideo">
+<image src="../../images/video.png"></image>
+<text>请拍摄一场开场白视频用来介绍本次随访</text>
+</view>
+</view>
+<!-- 发布 -->
+<view class="active sp">
+<text>发布给：</text>
+<text>选择我的队员</text>
+<image src="../../images/jiantou.png"></image>
+</view>
+<!-- 志愿者名单-->
+<view class="actives roster">
+<view class="pics">
+<image src="../../images/jia_qian.png"></image>
+<text>参与活动的名单</text>
+</view>
+</view>
+<!-- 确认发布 -->
+<view class="btn">确认发布</view>

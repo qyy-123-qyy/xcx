@@ -1,0 +1,20 @@
+<!-- 选择身份 -->
+<view class="idfi">您的身份是？</view>
+<!-- 客户 -->
+<view class="content {{step==0?'active':''}}" bindtap="choose" data-step="0">
+<view class="peoples"><image src="../../images/people1.png"></image></view>
+<text>我是客户</text>
+</view>
+<!-- 志愿者们 -->
+<view class="content {{step==1?'active':''}}" bindtap="choose" data-step="1">
+<view class="peoples"><image src="../../images/people2.png"></image></view>
+<text>志愿者们</text>
+</view>
+<!-- 社团团长 -->
+<view class="content {{step==2?'active':''}}" bindtap="choose" data-step="2">
+<view class="peoples"><image src="../../images/people3.png"></image></view>
+<text>社团团长</text>
+</view>
+<!-- 提交 -->
+<view class="btn">提交</view>
+

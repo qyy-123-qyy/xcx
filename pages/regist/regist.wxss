@@ -1,0 +1,94 @@
+.contanier{
+  display: flex;
+  padding:20rpx;
+}
+.toubu{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background-color: pink;
+}
+.toubu image{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 50%;
+}
+ .tb{
+  height: 80rpx;
+  margin-top:20rpx;
+  display: flex;
+  padding-left: 20rpx;
+}
+.tb text{
+  line-height: 80rpx;
+}
+.tb input{
+  height: 80rpx;
+}
+.tb image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 20rpx;
+}
+.xm{
+  padding: 0 20rpx;
+  height: 80rpx;
+  display: flex;
+  border-bottom: 2px rgb(226, 226, 226) solid;
+}
+.xm text{
+  line-height: 80rpx;
+  font-size: 34rpx;
+  color: #333;
+}
+.xm input{
+  height:80rpx;
+  width:70%;
+}
+.input-placeholder{
+  font-size:32rpx;
+  color: #999;
+}
+.xm image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 30rpx;
+}
+.btn{
+  width: 80%;
+  margin:40rpx auto;
+  padding: 20rpx 0;
+  border-radius: 50rpx;
+  background: linear-gradient(to right,rgb(242, 173, 176),rgb(237, 70, 76));
+  color: #fff;
+  text-align: center;
+  box-shadow: 6rpx 0 12rpx rgb(245, 124, 128);
+}
+.user{
+  width: 60%;
+  margin:auto;
+}
+.user text{
+  font-size: 24rpx;
+}
+radio {
+  transform:scale(0.6);
+}
+.red{
+  color:rgb(238, 77, 82);
+}
+/* 协议 */
+.box{
+  height:100%;
+  width:100%;
+  background-color:#fff;
+  z-index: 999;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.content{
+  width: 60%;
+  height: 70%;
+  background-color: rgba(red, green, blue, alpha);
+}

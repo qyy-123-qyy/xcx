@@ -1,0 +1,82 @@
+page{
+  background-color: rgb(242, 236, 236);
+}
+.active{
+   background-color:#fff;
+   width:80%;
+   padding:40rpx;
+   margin:40rpx auto 0;
+   border-radius: 10rpx;
+}
+.title{
+  padding:12rpx 20rpx;
+  margin:0 auto;
+  width: 234rpx;
+  display: block;
+  border-bottom: 2px solid rgb(191, 62, 62);
+  text-align: center;
+  font-size: 34rpx;
+}
+.time{
+  display: flex;
+  margin-top: 40rpx;
+}
+.time text{
+  line-height:70rpx;
+  padding-right:30rpx;
+  font-size: 32rpx;
+}
+.time input{
+  width:420rpx;
+  height:70rpx;
+  background-color: rgb(237, 235, 235);
+  border-radius:8rpx;
+  padding-left:20rpx;
+}
+radio-group{
+  line-height:60rpx ;
+}
+radio{
+  transform:scale(0.8);
+}
+.times{
+  margin-top:20rpx;
+}
+.titles{
+  border: none;
+}
+textarea{
+  width: 100%;
+  height: 160rpx;
+}
+/* 活动图片 */
+.pic{
+  padding:20rpx;
+  width: 40%;
+  height: 120epx;
+  background-color: rgb(245, 243, 243);
+  text-align: center;
+}
+.pic image{
+  width: 80rpx;
+  height: 80rpx;
+  z-index: -1;
+}
+.pic text{
+  font-size: 32rpx;
+  display: block;
+  color: #cdcdcd;
+}
+/* 确认提交 */
+.content{
+  width:400rpx;
+  height:80rpx;
+  padding:0 100rpx;
+  margin:100rpx auto 0;
+  border-radius: 50rpx;
+  background: linear-gradient(to right,rgb(248, 132, 136),rgb(235, 99, 103));
+  box-shadow: 0 0 10rpx rgba(0, 0,0, 0.2);
+  text-align: center;
+  color: #fff;
+  line-height: 80rpx;
+}

@@ -1,0 +1,76 @@
+<!-- 活动详情 -->
+<view class="contanier">
+<view class="detail"><image src="../../images/1.jpg"></image></view>
+<text class="heart">爱心志愿者招募进行时</text>
+<text class="en">Grand opening poly benefit the whole city</text>
+<text class="time">活动时间：2020-3-30至2020-4-15</text>
+<!-- 活动特色 -->
+<view class="features">
+<text>活动特色</text>
+<view class="line"></view>
+</view>
+<view class="classification">
+<view class="age">年龄不限</view>
+<view class="num">招30人</view>
+<view class="sex">男女不限</view>
+</view>
+<!-- 活动内容 -->
+<view class="features">
+<text>活动内容</text>
+<view class="line"></view>
+</view>
+<view class="classifications">
+<view class="title">配合志愿者协会进行献爱心，具体内容如下：</view>
+<view class="content">简介：Google 翻译是谷歌公司提供一项免费的翻译服务，可提供103 种语言之间的即时翻译，支持任意两种语言之间的字词、句子和网页翻译。可分析的人工翻译文档越多，译文的质量就会越高越好Google 翻译生成译文时，会在数百万篇文档中查找各种模式，以便决定最佳翻译。Google 翻译通过在经过人工翻译的文档中...</view>
+</view>
+<!-- 活动时间 -->
+<view class="features">
+<text>活动时间</text>
+<view class="line"></view>
+</view>
+<view class="classifications">
+<view class="times">
+<text>开始时间:</text>
+<image src="../../images/time.png"></image>
+<text>2020-2-20 (12:00-15:00)</text>
+</view>
+<view class="times" style="margin-top:40rpx">
+<text>结束时间:</text>
+<image src="../../images/time_1.png"></image>
+<text>2020-2-20 (12:00-15:00)</text>
+</view>
+</view>
+<!-- 活动地址 -->
+<view class="features">
+<text>活动地址</text>
+<view class="line"></view>
+</view>
+<view class="classifications">
+<image src="../../images/2.jpg"></image>
+</view>
+<!-- 发布者信息 -->
+<view class="features">
+<text>发布者信息</text>
+<view class="line"></view>
+</view>
+<view class="classifications">
+<view class="inform">
+<image src="../../images/1.jpg"></image>
+<view class="contact">
+<view>联系人：侯先生</view>
+<text>联系电话：18525021525</text>
+</view>
+<image class="img" src="../../images/jiantou.png" style="width:20rpx"></image>
+</view>
+</view>
+</view>
+<!-- 点击报名 -->
+<view class="btn">点击确认</view>
+<view class="user"> 
+    <radio-group>
+    <radio color="red"  bindtap="choose" checked="{{check}}"></radio>
+    <text>我已阅读并同意</text>
+    <text class="red">《用户服务协议》</text>
+</radio-group>
+</view>
+

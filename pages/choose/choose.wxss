@@ -1,0 +1,53 @@
+
+.idfi{
+  text-align: center;
+  font-size: 44rpx;
+  padding: 120rpx;
+  color:rgb(181, 46, 41);
+  font-weight: 700;
+}
+.content{
+  width:280rpx;
+  height:100rpx;
+  padding:0 100rpx;
+  margin: auto;
+  margin-bottom: 100rpx;
+  border-radius: 50rpx;
+  background: linear-gradient(to right,rgb(221, 220, 220),rgb(249, 249, 249));
+  text-align: center;
+  display: flex;
+  color: #B01B15;
+}
+.content.active{
+  background: linear-gradient(to right,rgb(247, 100, 105),rgb(250, 178, 181));
+  color: #fff;
+}
+.content text{
+  height:100rpx ;
+  line-height:100rpx;
+  margin-left: 20rpx;
+}
+.peoples{
+  height:100rpx ;
+  width: 100rpx;
+}
+.peoples image{
+  height:100rpx ;
+  width: 100rpx;
+
+}
+.peoples image img{
+  height:90rpx ;
+  width: 90rpx;
+}
+.btn{
+  height:100rpx;
+  padding: 0;
+  width:100%;
+  background-color: rgb(169, 32, 28);
+  line-height:100rpx;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}

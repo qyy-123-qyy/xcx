@@ -1,0 +1,111 @@
+page{
+  background-color: rgb(252, 248, 248);
+}
+.contanier{
+  width: 80%;
+  height:300rpx;
+  background-color:#fff;
+  margin:60rpx auto;
+  padding:60rpx;
+  box-shadow: 0 0 12rpx rgba(0, 0, 0, 0.2);
+  border-radius: 20rpx;
+}
+.item_up{
+  width:100%;
+  display: flex;
+}
+.pic{
+  width:60rpx;
+  height:60rpx;
+  border-radius: 50%;
+}
+.pic image{
+  width:60rpx;
+  height:60rpx;
+}
+.item_up{
+  margin-bottom: 20rpx;
+}
+.item_up text{
+  line-height:52rpx ;
+  font-size: 40rpx;
+  margin-left: 10rpx;
+}
+.item_box{
+  font-size:32rpx ;
+  display: inline-block;
+}
+.item_box .name{
+ color: rgb(101, 101, 101);
+ padding:20rpx;
+}
+.item_box .sex{
+  color: #999;
+  padding:20rpx;
+ }
+
+/* 弹框 */
+.toast-box{
+  width:70%;
+  height:400rpx;
+  padding:20rpx;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 60rpx;
+  left:80rpx;
+  z-index: 999;
+}
+.toast-box .toast-up{
+  width: 92%;
+  height:20%;
+  display: flex;
+}
+.toast-box .toast-name{
+ display: flex;
+ padding: 20rpx 0 0;
+
+
+}
+.toast-box .toast-sex{
+  display: flex;
+  padding: 10rpx 0;
+}
+radio{
+  transform:scale(0.6);
+}
+.toast-button {
+  display: flex;
+  padding: 30rpx 30rpx 0;
+
+}
+.button1 {
+  width: 50%;
+  text-align: center;
+}
+.button1 button{
+  padding: 0;
+}
+.button2 {
+  width: 50%;
+  height:40rpx;
+  text-align: center;
+ line-height: 40rpx;
+}
+.button2 button{
+  padding: 0;
+}
+/* 确认添加 */
+.content{
+  width:400rpx;
+  height:80rpx;
+  padding:0 100rpx;
+  margin:100rpx auto;
+  border-radius: 50rpx;
+  background: linear-gradient(to right,rgb(248, 132, 136),rgb(244, 115, 119));
+  box-shadow: 0 0 10rpx rgba(0, 0,0, 0.2);
+  text-align: center;
+  color: #fff;
+  line-height: 80rpx;
+}

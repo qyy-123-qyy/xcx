@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/info/info",
+    "pages/detail/detail",
+    "pages/choose/choose",
+    "pages/regist/regist",
+    "pages/inform/inform",
+    "pages/roster/roster",
+    "pages/create/create",
+    "pages/legal/legal",
+    "pages/list/list",
+    "pages/look/look"
+
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "活动资讯",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#CACACA",
+    "selectedColor":"#B01B15",
+   "list":[
+     {
+       "pagePath":"pages/index/index",
+       "text":"首页",
+       "iconPath":"./images/page.png",
+       "selectedIconPath":"./images/page-active.png"
+     },
+     {
+      "pagePath":"pages/logs/logs",
+      "text":"活动",
+      "iconPath":"./images/active.png",
+      "selectedIconPath":"./images/active-active.png"
+
+    },
+    {
+      "pagePath":"pages/info/info",
+      "text":"个人中心",
+      "iconPath":"./images/info.png",
+       "selectedIconPath":"./images/info-active.png"
+    }
+   ]
+   },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
